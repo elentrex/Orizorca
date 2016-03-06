@@ -1,0 +1,104 @@
+/* Responsive: Portrait tablets and up */
+@media (max-width: 768px) {
+  .jumbotron {
+    background: url("../img/Camion-Orizorca-375.jpg") no-repeat center;
+    height: 250px;
+    
+    margin-top: 10px;
+  }
+  
+  .jumbotron .btn {
+    padding: 4px 14px;
+    font-size: 1em;
+  }
+  
+  .jumbotron > p{
+    color: #fff;
+    margin-top: 140px;
+    
+    font-size: 1.1em;
+  }
+	
+	.carousel{
+		height: 300px;
+	}
+	
+	.carousel-caption{
+		height: 40px;
+	}
+	
+	.carousel .item {
+		height: 300px;
+	}
+	
+	.carousel-inner > .item > img {
+		height: 300px;
+	}
+	
+	.carousel-caption h2{
+		font-size: 1.5em;
+	}
+}
+
+@media (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .masthead,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  
+  .jumbotron {
+    background: url("../img/Camion-Orizorca-768.jpg") no-repeat;
+  }
+  
+  .carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev{
+    margin-left: 30px;
+  }
+  
+  .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next{
+    margin-right: 30px;
+  }
+}
+
+@media (min-width: 992px) {
+  .jumbotron {
+    background: url("../img/Camion-Orizorca-992.jpg") no-repeat center;
+    height: 400px;
+    
+    margin-top: 10px;
+  }
+  
+  .jumbotron .btn {
+    padding: 4px 14px;
+  }
+  
+  .jumbotron > p{
+    color: #fff;
+    margin-top: 290px;
+    
+  }
+
+}
+
+@media screen and (min-width: 1200px) {
+  .jumbotron {
+    background: url("../img/Camion-Orizorca-1200.jpg") no-repeat center;
+    height: 500px;
+  }
+  
+  .jumbotron .btn {
+    padding: 4px 14px;
+  }
+  
+  .jumbotron > p{
+    color: #fff;
+    margin-top: 390px;
+    
+  }
+	
+	.banner{
+		text-align: center;
+	}
+}
